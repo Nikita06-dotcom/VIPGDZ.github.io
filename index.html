@@ -29,7 +29,12 @@
     width: 100%; /* Ширина слоя */
    }
   </style>
-  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 8084132, onlyWidgets: true});
+</script>
+
  </head>
  <body>
 <h1 style="text-align: center;">ВИП ГДЗ ОТ МЕНЯ &#128526;</h1>
@@ -49,18 +54,19 @@
 </tbody>
 </table>
 
-<script type="text/javascript">
-  VK.init({apiId: API_ID, onlyWidgets: true});
-</script>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
+<div align="center">
 <div id="vk_comments"></div>
 <script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
+VK.Widgets.Comments("vk_comments", {width: 500, limit: 15}, 321);
 </script>
+</div>
 
-  <div id="footer">
-   &copy; Черчение | 2022 | Добрый Никита
-   </div>
+<div id="footer">
+ &copy; Черчение | 2022 | Добрый Никита
+</div>
    
  </body>
 </html>
