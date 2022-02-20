@@ -1,0 +1,25 @@
+   /*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
+   
+   @font-face {
+    font-family: SH-2; /* Гарнитура шрифта */
+    src: url(settings/SH-2.ttf); /* Путь к файлу со шрифтом */
+   }
+   h1, h4, p {
+    font-family: SH-2, 'Comic Sans MS', cursive;
+   }
+   body {
+    background: #080808; /* Цвет фона */
+    color: #FFFFFF; /* Цвет текста */
+   }
+   #content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+   #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    background: DarkSlateGray; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
