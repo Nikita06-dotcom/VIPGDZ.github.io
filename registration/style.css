@@ -1,12 +1,13 @@
    /*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
    
    @font-face {
-    font-family: SH-2; /* Гарнитура шрифта */
-    src: url(settings/SH-2.ttf); /* Путь к файлу со шрифтом */
+    font-family: SH-3; /* Гарнитура шрифта */
+    src: url(settings/SH-3.ttf); /* Путь к файлу со шрифтом */
    }
    h1, h4, p {
-    font-family: SH-2, 'Comic Sans MS', cursive;
+    font-family: SH-3, "Arial", sans-serif;
    }
+   
    body {
     background: #080808; /* Цвет фона */
     color: #FFFFFF; /* Цвет текста */
@@ -18,8 +19,11 @@
    #footer {
     position: fixed; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 5px; /* Поля вокруг текста */
+    padding: 0px; /* Поля вокруг текста */
     background: DarkSlateGray; /* Цвет фона */
-    color: #fff; /* Цвет текста */
+    color: #FFFFFF; /* Цвет текста */
     width: 100%; /* Ширина слоя */
    }
+   .table_block {
+	border-radius: 16px;
+   }​
