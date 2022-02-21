@@ -1,13 +1,8 @@
    /*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
-   
-   @font-face {
-    font-family: SH-3; /* Гарнитура шрифта */
-    src: url(settings/SH-3.ttf); /* Путь к файлу со шрифтом */
-   }
-   h1, h4, p {
-    font-family: SH-3, "Arial", sans-serif;
-   }
-   
+
+   h1, h2, h3, h4, h5, p {
+    font-family: Pompadur, 'Arial', cursive;
+   }      
    body {
     background: #080808; /* Цвет фона */
     color: #FFFFFF; /* Цвет текста */
@@ -23,6 +18,12 @@
     background: DarkSlateGray; /* Цвет фона */
     color: #FFFFFF; /* Цвет текста */
     width: 100%;
+   }
+   .top_button {
+    position: fixed; /* Фиксированное положение */
+    right: 5%; /* Расстояние от правого края окна браузера */
+    top: 90%; /* Расстояние сверху */
+    padding: 0px; /* Поля вокруг текста */ 
    }
    .table_block {
 	border-radius: 16px;
