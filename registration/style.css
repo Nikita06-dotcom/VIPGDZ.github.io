@@ -1,32 +1,35 @@
-   /*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
+/*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
+/*https://html5css.ru/colors/colors_shades.php - оттенки черного 16 бит*/
 
-   h1, h2, h3, h4, h5, p {
-    font-family: Pompadur, 'Arial', cursive;
-   }      
-   body {
-    background: #080808; /* Цвет фона */
-    color: #FFFFFF; /* Цвет текста */
-   }
-   #content {
-    width: 500px; /* Ширина слоя */
-    margin: 0 auto 50px; /* Выравнивание по центру */
-   }
-   #footer {
-    position: fixed;
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 0px; /* Поля вокруг текста */
-    background: DarkSlateGray; /* Цвет фона */
-    color: #FFFFFF; /* Цвет текста */
-    width: 100%;
-   }
-   .top_button {
-    position: fixed; /* Фиксированное положение */
-    right: 5%; /* Расстояние от правого края окна браузера */
-    top: 90%; /* Расстояние сверху */
-    padding: 0px; /* Поля вокруг текста */ 
-   }
-   .table_block {
-	border-radius: 16px;
-	border-left: 23px dotted #202020;
-	border-right: 23px dotted #202020;
-   }​
+h1, h2, h3, h4, h5, p {
+font-family: 'Arial';
+text-align:center;
+}      
+body {
+background: #080808; /* Цвет фона */
+color: #FFFFFF; /* Цвет текста */
+}
+#content {
+width: 500px; /* Ширина слоя */
+margin: 0 auto 50px; /* Выравнивание по центру */
+}
+#footer {
+position: fixed;
+left: 0; bottom: 0; /* Левый нижний угол */
+padding: 0px; /* Поля вокруг текста */
+background: DarkSlateGray; /* Цвет фона */
+color: #FFFFFF; /* Цвет текста */
+width: 100%;
+}
+.top_button {
+position: fixed; /* Фиксированное положение */
+right: 5%; /* Расстояние от правого края окна браузера */
+top: 90%; /* Расстояние сверху */
+padding: 0px; /* Поля вокруг текста */ 
+}
+.zoom-in { cursor: zoom-in; }
+.table_block {
+border-radius: 16px;
+border-left: 23px dotted #202020;
+border-right: 23px dotted #202020;
+}​
