@@ -1,18 +1,10 @@
 /*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
 /*https://html5css.ru/colors/colors_shades.php - оттенки черного 16 бит*/
 
-h1, h2, h3, h4, h5, p {
-font-family: 'Arial';
-text-align:center;
-}      
-body {
-background: #080808; /* Цвет фона */
-color: #FFFFFF; /* Цвет текста */
-}
-#content {
-width: 500px; /* Ширина слоя */
-margin: 0 auto 50px; /* Выравнивание по центру */
-}
+h1, h2, h3, h4, p { font-family: 'Arial'; text-align:center; }
+h5 {font-family: 'Trebuchet MS'; text-align:center; color: 	#A0A0A0}  
+body { background: #080808; /* Цвет фона */ color: #FFFFFF; /* Цвет текста */ }
+
 #footer {
 position: fixed;
 left: 0; bottom: 0; /* Левый нижний угол */
@@ -27,7 +19,10 @@ right: 5%; /* Расстояние от правого края окна бра�
 top: 90%; /* Расстояние сверху */
 padding: 0px; /* Поля вокруг текста */ 
 }
+
 .zoom-in { cursor: zoom-in; }
+.bl { margin-top: 5px; }
+
 .table_block {
 border-radius: 16px;
 border-left: 23px dotted #202020;
