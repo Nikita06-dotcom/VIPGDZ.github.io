@@ -20,11 +20,17 @@ top: 90%; /* Расстояние сверху */
 padding: 0px; /* Поля вокруг текста */ 
 }
 
-.zoom-in { cursor: zoom-in; }
-.bl { margin-top: 5px; }
-
 .table_block {
 border-radius: 16px;
 border-left: 23px dotted #202020;
 border-right: 23px dotted #202020;
+}​
+
+.zoom-in { cursor: zoom-in; }
+.bl { margin-top: 5px; }
+
+.table_block_2 {
+border-radius: 8px;
+border-left:16px dotted #383838;
+border-right: 16px dotted #383838;
 }​
