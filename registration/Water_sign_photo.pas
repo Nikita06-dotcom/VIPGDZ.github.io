@@ -26,7 +26,7 @@ begin
     Rectangle(0, tmp.Height, tmp.Width, tmp.Height - 30);
     DrawTextCentered(0, tmp.Height - 30, tmp.Width, tmp.Height, 'https://nikita06-dotcom.github.io/VIPGDZ.github.io - моё вип гдз 2022');
     
-    SaveWindow('E:\Kc\гдз\test\' + copy(name, 1, pos(',', name) - 1) + '.jpg'); delete(name, 1, pos(',', name) + 1);
+    SaveWindow('...' + copy(name, 1, pos(',', name) - 1) + '.jpg'); delete(name, 1, pos(',', name) + 1);
   end;
   halt;
 end.
