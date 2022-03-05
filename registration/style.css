@@ -1,0 +1,40 @@
+/*https://www.freeformatter.com/html-formatter.html#ad-output - Форматировщик HTML*/
+/*https://html5css.ru/colors/colors_shades.php - оттенки черного 16 бит*/
+/*dir E:\Kc\гдз\Сайтик\images\CH-6 /b - получение в столбик названия всех файлов из директории CH-6*/
+
+.table_block_2 {
+border-radius: 8px;
+border-left:16px dotted #383838;
+border-right: 16px dotted #383838;}
+
+h1, h2, h3, h4, p { font-family: 'Arial'; text-align:center;}
+A { text-decoration: none; } A:visited, A:link { color:  #FFFFFF; }
+h5 {font-family: 'Trebuchet MS'; text-align:center; color: 	#DCDCDC; }  
+body { background: #080808; /* Цвет фона */ color: #FFFFFF; /* Цвет текста */ }
+
+#footer {
+position: fixed;
+left: 0; bottom: 0; /* Левый нижний угол */
+padding: 0px; /* Поля вокруг текста */
+background: DarkSlateGray; /* Цвет фона */
+color: #FFFFFF; /* Цвет текста */
+width: 100%;
+}
+.top_button {
+position: fixed; /* Фиксированное положение */
+right: 5%; /* Расстояние от правого края окна браузера */
+top: 90%; /* Расстояние сверху */
+padding: 0px; /* Поля вокруг текста */ 
+}
+
+.outline {  border: 1px solid #383838; padding: 10px; }
+
+.zoom-in { cursor: zoom-in; }
+.bl { margin-top: 5px; }
+
+.table_block {
+border-radius: 16px;
+border-left: 23px dotted #202020;
+border-right: 23px dotted #202020;
+}​
+
